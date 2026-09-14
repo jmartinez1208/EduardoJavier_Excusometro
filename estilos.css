@@ -1,48 +1,21 @@
 body {
     margin: 0;
-    background-color: lightgray;
+    background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    color: crimson;
-    font-size: 3em;
+    color: white;  
 }
-
-header p {
-    font-size: 1.1em;
+p {
+    color: white;
 }
-
 h2 {
-    font-size: 1.5em;
+    color: white;
 }
-
 header{
     padding: 40px;
     text-align: center;
-    background-color: #222 ;
-    color: ghostwhite;
 }
 main{
     padding: 30px;
-}
-
-p{
-    font-size: 1.2em;
-    line-height: 1.5em;
-}
-
-main{
-    padding: 30px;
-    margin: auto;
-}
-
-section{
-background-color: ghostwhite;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-footer{
-    padding:20px;
-    text-align: center;
 }
