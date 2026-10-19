@@ -1,21 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: #f2f0e8;
-    color: #171717;
+    background-color: #f0f5f7;
+    color: #302b30;
     font-size: 16px;
     line-height: 1.6;
 }
 
 header {
-    background-color: #171717;
-    color: #f2f0e8;
+    background-color: #422b35;
+    color: #f0f5f7;
     text-align: center;
     padding: 60px 30px;
 }
 
 header p {
-    color: #d7ff3f;
+    color: #f2c96d;
     font-size: 1rem;
     font-weight: 700;
     margin: 10px 0;
@@ -29,24 +29,24 @@ h1 {
 }
 
 nav{
-    background-color: #d7ff3f;
+    background-color: #b9dce8;
     text-align: center;
     padding: 16px;
 }
 
 nav a{
-    color: #171717;
+    color: #302b30;
     font-weight: 700;
     text-decoration: none;
     margin: 0 12px;
 }
 
 nav a:hover{
-    color: crimson;
+    color: #a83f50;
 }
 
 nav a:focus-visible {
-    outline: 2px solid #171717;
+    outline: 2px solid #422b35;
     outline-offset: 4px;
 }
 
@@ -103,23 +103,23 @@ p {
 }
 
 .excusa{
-    background-color: #f4f4f4;
+    background-color: #f7fafb;
     padding: 20px;
     margin-bottom: 16px;
 }
 
 .excusa h3{
-    color: #b00020;
+    color: #a83f50;
     margin-top: 0;
 }
 
 #estado{
-    background-color: #171717;
-    color: ghostwhite;
+    background-color: #422b35;
+    color: #f0f5f7;
 }
 
 #estado h2{
-    color: ghostwhite;
+    color: #ffffff;
 }
 
 ul {
@@ -135,8 +135,8 @@ li {
 }
 
 footer {
-    background-color: #d7ff3f;
-    color: #171717;
+    background-color: #f2c96d;
+    color: #302b30;
     text-align: center;
     padding: 24px;
 }
