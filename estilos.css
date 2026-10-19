@@ -23,27 +23,26 @@ header p {
 
 h1 {
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     margin: 10px 0;
 }
 
-@media (max-width: 600px) {
-    header {
-        padding: 40px 20px;
-    }
+nav{
+    background-color: #d7ff3f;
+    text-align: center;
+    padding: 16px;
+}
 
-    h1 {
-        font-size: 2rem;
-    }
+nav a{
+    color: #171717;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 12px;
+}
 
-    main {
-        padding: 24px 16px;
-    }
-
-    section {
-        padding: 22px;
-    }
+nav a:hover{
+    color: crimson;
 }
 
 main {
@@ -67,6 +66,26 @@ h2 {
 
 p {
     margin-bottom: 16px;
+}
+
+.excusa{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.excusa h3{
+    color: #b00020;
+    margin-top: 0;
+}
+
+#estado{
+    background-color: #171717;
+    color: ghostwhite;
+}
+
+#estado h2{
+    color: ghostwhite;
 }
 
 ul {
