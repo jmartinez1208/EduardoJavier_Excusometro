@@ -45,10 +45,44 @@ nav a:hover{
     color: crimson;
 }
 
+nav a:focus-visible {
+    outline: 2px solid #171717;
+    outline-offset: 4px;
+}
+
 main {
     max-width: 900px;
     margin: auto;
     padding: 40px 30px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    main {
+        padding: 24px 16px;
+    }
+
+    section {
+        padding: 22px;
+    }
 }
 
 section {
