@@ -1,5 +1,6 @@
 body {
     margin: 0;
+<<<<<<< HEAD
     background-color: lightgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -45,4 +46,24 @@ background-color: ghostwhite;
 footer{
     padding:20px;
     text-align: center;
+=======
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: white;  
+}
+p {
+    color: white;
+}
+h2 {
+    color: white;
+}
+header{
+    padding: 40px;
+    text-align: center;
+}
+main{
+    padding: 30px;
+>>>>>>> 85a840e6116d5c7a3c60b483dc6ac66623f7e041
 }
