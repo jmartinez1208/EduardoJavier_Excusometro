@@ -206,9 +206,72 @@ footer a:hover {
     margin-left: .3em;
 }
 
-.grid-evidencias{
+.grid-evidencias {
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
+}
+
+.form-excusa {
+    margin-top: 2em;
+    max-width: 45em;
+}
+
+.campo {
+    margin-bottom: 1.5em;
+}
+
+.campo>label,
+fieldset>legend {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8em;
+    background-color: ghostwhite;
+    color: #171717;
+    border: 0.12em solid #171717;
+    font: inherit;
+
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 0.2em solid #d7ff3f;
+    outline-offset: 0.15em;
+}
+
+fieldset.campo {
+    border: 0.12em solid #171717;
+    padding: 1em;
+}
+
+fieldset.campo label {
+    display: block;
+    margin-bottom: 0.6em;
+}
+
+.form-excusa button {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    background-color: #171717;
+    color:#d7ff3f;
+    border: 0.12em solid #171717;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
 }
